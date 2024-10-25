@@ -31,25 +31,27 @@
 
 <body>
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
-        <header class="flex pt-10 mb-20 lg:flex-row md:flex-col sm:flex-col">
+        <!-- banner section -->
+        <header class="pt-10 mb-20 lg:flex-row md:flex-col">
 
             <!-- text content -->
             <div>
                 <h1 class="text-5xl md:text-7xl font-bold">It's good <br>
-                    tea time at The <br> Tea House</h1>
+                    tea time at The Tea House</h1>
                 <br>
                 <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
                     Taste Buds.</p>
                 <br>
                 <button
-                    class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounde text-white font-bold ">Explore
+                    class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 mb-4 rounde text-white font-bold ">Explore
                     More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
             </div>
             <!-- img content -->
-            <div class="relative">
+            <div class="relative ">
                 <img class="w-full" src="/images/banner.png" alt="">
                 <!-- card -->
-                <div class="flex  items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-80 md:left-32 lg:left-28">
+                <div
+                    class="flex  items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-80  md:left-32 lg:left-28">
                     <!-- icon -->
                     <div>
                         <i class="fa-solid fa-star text-2xl text-amber-500"></i>
@@ -62,7 +64,50 @@
             </div>
         </header>
         <!-- our features products -->
-         
+        <section class="py-8 lg:py-24">
+            <div class="text-center mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold mb-3">Our Featured Products</h1>
+                <p class="text-gray-500 mx-auto">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable. </p>
+            </div>
+            <!-- grid card -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-6">
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden p-8">
+                    <img class="mx-auto border-dashed border-2 border-gray-300" src="./images/tea-1.png" alt="">
+                    <div class="mt-3">
+                        <h2 class="font-bold text-xl">Lemon Tea</h2>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+
+                </div>
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden p-8">
+                    <img class="mx-auto border-dashed border-2 border-gray-300" src="./images/tea-2.png" alt="">
+                    <div class="mt-3">
+                        <h2 class="font-bold text-xl">Milk Tea</h2>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+
+                </div>
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden p-8">
+                    <img class="mx-auto border-dashed border-2 border-gray-300" src="./images/tea-3.png" alt="">
+                    <div class="mt-3">
+                        <h2 class="font-bold text-xl">Black Tea</h2>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+
+                </div>
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden p-8">
+                    <img class="mx-auto border-dashed border-2 border-gray-300" src="./images/tea-4.png" alt="">
+                    <div class="mt-3">
+                        <h2 class="font-bold text-xl">Cold Tea</h2>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
