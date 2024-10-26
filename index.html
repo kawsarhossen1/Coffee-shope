@@ -22,14 +22,17 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                    }
-                }
-            }
+                    },
+                    fontFamily: {
+                        manrope: ['Manrope', 'serif'],
+                    },
+                },
+            },
         }
     </script>
-</head>
+</head class>
 
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- banner section -->
         <header class="pt-10 mb-20 lg:flex">
@@ -43,15 +46,18 @@
                     Taste Buds.</p>
                 <br>
                 <button
-                    class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 mb-4 rounde text-white font-bold ">Explore
+                    class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 mb-4 rounded-lg text-white font-bold ">Explore
                     More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
             </div>
             <!-- img content -->
             <div class="relative ">
-                <img class="w-full" src="/images/banner.png" alt="">
+                <!-- image -->
+                <div>
+                    <img class="w-full" src="/images/banner.png" alt="">
+                </div>
                 <!-- card -->
                 <div
-                    class="flex  items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-80  md:left-32 lg:left-28">
+                    class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
                     <!-- icon -->
                     <div>
                         <i class="fa-solid fa-star text-2xl text-amber-500"></i>
@@ -274,7 +280,7 @@
                 </div>
             </div>
             <!-- links -->
-            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
                 <!-- first colum -->
                 <div>
                     <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
@@ -312,7 +318,8 @@
                         <div>
                             <input placeholder="Email address" type="text"
                                 class="bg-transparent border-b-2 border-black w-4/6 ">
-                            <i class="fa-solid fa-chevron-right h-7 w-7 bg-orange-600 inline-flex rounded-full text-white justify-center items-center"></i>
+                            <i
+                                class="fa-solid fa-chevron-right h-7 w-7 bg-orange-600 inline-flex rounded-full text-white justify-center items-center"></i>
                             <div class="flex justify-between w-2/5 mb-2 mt-8">
                                 <i class="fa-brands fa-facebook-f"></i>
                                 <i class="fa-brands fa-twitter"></i>
@@ -320,7 +327,7 @@
                             </div>
                         </div>
                     </div>
-                </div>   
+                </div>
             </div>
             <div class="text-center pt-4 mt-4">
                 <p class="text-sm text-gray-600">© 2024 UIDesign.to - All rights reserved.</p>
